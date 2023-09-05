@@ -8,21 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>AGENDAAAA</title>
+    <title>AGENDA</title>
 </head>
 <body>
+    <main>
    <div id="container">
     <h1>Agenda telefônica</h1>
-    <input id="nome" placeholder="">
-    <input id="telefone" placeholder="">
-    <input id="celular" placeholder="">
-    <input id="img" placeholder="">
-    <input id="data" type="date"placeholder="">
-    <input id="email" placeholder="">
-    <input id="cep" placeholder="">
-    <input id="cidade" placeholder="">
-    <input id="instagram" placeholder="">
-    <input id="github" placeholder="">
+    <input id="nome" placeholder="Nome completo" required>
+    <input id="telefone" placeholder="Telefone Fixo" required>
+    <input id="celular" placeholder="Telefone Celular"required>
+    <input id="img" placeholder="URL da imagem"required>
+    <input id="data" type="date"required>
+    <input id="email" placeholder="E-mail"required>
+    <div>
+    <input id="cep" placeholder="CEP"required>
+    <input id="cidade" placeholder="Cidade"required>
+    <input id="instagram" placeholder="@Instagram"required >
+    <input id="github" placeholder="@Github"required>
+    <div id="msg"></div>
+    <button onclick="cadastrar()">Clique aqui para cadastrar</button>
+</div>
    </div>
+   <div id="aside"></div>
+  <div id="containerLista"></div>
+  </div>
+</main>
+ 
 </body>
 </html>

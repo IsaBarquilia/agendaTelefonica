@@ -1,0 +1,100 @@
+#container{
+    margin: 25px;
+}
+body{
+    background-color: #340159;
+}
+main{
+    background-color: #500188;
+    height: 400px;
+    width: 1210px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 2px 1px rgba(255, 255, 255, 0.50);
+}
+.erro{
+    font-size: 20px;
+
+}
+.sucesso{
+    font-size: 20px;
+
+}
+h1{
+    margin-left: 455px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0 0 0.2em rgb(34, 0, 255), 0 0 0.2em rgb(255, 255, 255),
+        0 0 0.2em rgb(243, 242, 249)
+
+}
+input{
+    margin: 5px;
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: #EE82EE;
+}
+button{
+    background-color: #e062e0;
+    border: none;
+    color: aliceblue;
+    height: 35px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.7s ease  ;
+}
+button:hover{
+
+        background-color:#8B008B;
+        transform: scale(1.03);
+    
+}
+::placeholder{
+    color:black
+}
+.detalhes {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin-right: 50px;
+    background-color: #6300aa;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px 1px rgba(255, 255, 255, 0.50);
+}
+
+.detalhes p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.detalhes img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+.detalhes2 {
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 400px;
+    margin-left: 750px;
+    background-color: #ab5be4;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 5px 10px 10px 1px rgba(255, 255, 255, 0.50);
+}
+
+.detalhes2 p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: black;
+}
+
+.detalhes2 img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
